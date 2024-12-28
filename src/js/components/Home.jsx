@@ -5,17 +5,10 @@ import Navbar from "./Navbar.jsx"
 import Footer from "./Footer.jsx"
 import Hero from "./Hero.jsx"
 
+import Coolors from "./Coolors.jsx"
+import { generateRandomColor } from "../utils/GenerateRandomColor.js";
+
 const Home = () => {
-
-	const generateRandomColor = () => {
-		const hexValues = "0123456789ABCDEF";
-		let color = '#';
-
-		for(let i = 0; i < 6; i ++){
-			color += hexValues[Math.floor(Math.random()*hexValues.length)];
-		}
-		return color;
-	}
 
 	const newColor = generateRandomColor();
 
@@ -30,6 +23,7 @@ const Home = () => {
 		>
 			<Navbar />
 			<Hero/>
+			<Coolors />
 			<Footer/>
 		</div>
 	);
