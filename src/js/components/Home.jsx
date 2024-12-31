@@ -4,6 +4,7 @@ import React from "react";
 import Navbar from "./Navbar.jsx"
 import Footer from "./Footer.jsx"
 import Hero from "./Hero.jsx"
+import ColorsTable from "./ColorsTable.jsx"
 
 import Coolors from "./Coolors.jsx"
 import { generateRandomColor } from "../utils/GenerateRandomColor.js";
@@ -23,7 +24,8 @@ const Home = () => {
 		>
 			<Navbar />
 			<Hero/>
-			<Coolors />
+			{/* <Coolors /> */}
+			<ColorsTable />
 			<Footer/>
 		</div>
 	);

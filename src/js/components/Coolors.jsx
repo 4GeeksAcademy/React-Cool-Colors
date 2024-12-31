@@ -41,7 +41,7 @@ const Coolors = () => {
     }
 
     return (<>
-        <div className="d-flex flex-wrap">
+        <div className="d-flex flex-wrap container">
             {colorList.map(color => <CardColor bgColor={color} />)}
         </div>
         <button className="btn btn-warning mx-auto my-4"
