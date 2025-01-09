@@ -1,23 +1,8 @@
 
 import React, { useState } from "react";
-
 import { generateRandomColor} from "../utils/GenerateRandomColor"
+import CardColor from "./CardColor.jsx"
 
-const CardColor = (props) => {
-    return (
-        <div className="col-4 p-2">
-            <div className="card">
-                <div src="..." className="card-img-top" style={{ 
-                    backgroundColor: props.bgColor,
-                    minHeight: '180px'
-                 }}/>
-                <div className="card-body">
-                    <p className="card-text">{props.bgColor}</p>
-                </div>
-            </div>
-        </div>
-    )
-}
 
 const Coolors = () => {
 

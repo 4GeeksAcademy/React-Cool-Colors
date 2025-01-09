@@ -5,6 +5,7 @@ import Navbar from "./Navbar.jsx"
 import Footer from "./Footer.jsx"
 import Hero from "./Hero.jsx"
 import ColorsTable from "./ColorsTable.jsx"
+import ColorTester from "./ColorTester.jsx";
 
 import Coolors from "./Coolors.jsx"
 import { generateRandomColor } from "../utils/GenerateRandomColor.js";
@@ -25,7 +26,8 @@ const Home = () => {
 			<Navbar />
 			<Hero/>
 			{/* <Coolors /> */}
-			<ColorsTable />
+			{/* <ColorsTable /> */}
+			<ColorTester />
 			<Footer/>
 		</div>
 	);
